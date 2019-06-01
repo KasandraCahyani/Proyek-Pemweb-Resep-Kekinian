@@ -1,0 +1,401 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    background: white;
+  }
+
+.kotak_menu img{
+    margin: 10px;
+    text-align: center;
+    width:300px;
+    padding: 0px!important;;
+}
+.right-nav-index{
+    margin-left: 800px!important;
+}
+nav ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    color:#fff;
+    text-decoration:none;
+}
+{ 
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 60px;
+	padding-left: 475px;
+	padding-top: 50px;
+	padding-bottom: 0px;
+    color: #517f1c;
+    position: relative;
+    top: 100px;
+}
+
+p {
+    font-size: 30px;
+    position: relative;
+    bottom: 50px;
+    padding-left: 450px;
+}
+
+img {
+    width: 75%;
+    padding-left: 150px;
+}
+
+menu {
+    background-color: #517f1c;
+    height: 50px;
+}
+
+menu ul {
+    list-style: none;
+    line-height: 50px;
+}
+
+menu ul li {
+    float: left;
+    width: 10%;
+    text-align: right;
+    
+}
+
+menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Ubuntu Condensed;
+    font-size: 14pt;
+}
+
+menu ul li a img {
+    float: right;
+    height: 50px;
+    width: 205px;
+}
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+  background: #517f1c;
+}
+
+nav{float:right;margin-right: 15px;}
+
+.logo img{
+    float:left;
+    width: 197px;
+    height: 46px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+ul li{
+  display: inline-block; padding:10px;
+  font-size:20px; 
+  font-family:Ubuntu Condensed;
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+
+.tulisan_daftar {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20pt;
+    color: white;
+}
+
+.kotak_daftar {
+    width: 400px;
+    background-color: #517f1c;
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+label {
+    font-size: 12pt;
+    color: white;
+}
+
+.form_daftar {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 12pt;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tombol_daftar {
+    background: #ff8908;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+}
+.right-nav{
+    margin-left: 770px;
+}
+.tulisan_masuk{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20pt;
+    color: white;
+}
+
+.kotak_masuk {
+    width: 400px;
+    background-color: #517f1c;
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+.form_masuk {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 12pt;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tombol_masuk {
+    background: #ff8908;
+    color: white;
+    font-size: 12pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table  {
+    width: 100%;
+    margin: 5px 0px 5px 5px;
+    padding: 30px 20px;
+}
+
+table .kotak_menu {
+    width: 200px;
+    background-color: #517f1c;
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+
+table tr td .tulisan_menu {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20pt;
+    color: white;
+}
+
+table tr td .tulisan {
+    font-size: 16pt;
+}
+
+table tr td img {
+    width: 100%;
+}
+
+table tr td ul.bahan {
+    vertical-align: top;
+    list-style-type: square;
+    font-size: 13pt;
+}
+
+table tr td ol.langkah {
+    vertical-align: top;
+    list-style-type: decimal;
+    font-size: 13pt;
+}
+
+table tr td .kotak_menu {
+    width: 75%;
+    margin: 10px 10px 10px 10px;
+    padding: 30px 20px;
+    background: #517f1c;
+}
+
+table tr td .tulisan_menu {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20pt;
+    color: white;
+}
+
+table tr td img {
+    width: 100%;
+}
+.kotak_menu table img {
+    width: 55%;
+    border-radius: 100px;
+    border: 2px solid #fff;
+}
+.kotak_resep table img {
+    width: 55%;
+    border-radius: 100px;
+    border: 2px solid #fff;
+}
+.kotak_edit table img {
+    width: 85%!important;
+}
+table td{
+    vertical-align: center!important;
+    align:center!important;
+}
+
+table tr td .link {
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+}
+.kotak_menu table{
+    width: 55%;
+    align-content: center;
+    align-items: center;
+    border:2px solid #517f1c;
+}
+
+.judul h2 {
+    color: black;
+    font-size: 48px;
+    top : 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.profil {
+    background-color: #517f1c;
+}
+
+.profil tr th {
+    background-color: white;
+}
+.profil tr td {
+    background-color: white;
+}
+.profil td img {
+    width: 150px;
+    height: 175px;
+}
+.kotak_menu td label{
+    color:#000!important;
+}
+
+.fakeimg {
+    background-color: #fff;
+    padding: 20px;
+    text-align:center;
+  }
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.card h1 {
+    color: #517f1c;
+    top : 25px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.card p{
+    font-size: 20px!important;
+    position: relative;
+    bottom: 0px;
+    padding-left: 0px;
+}
+
+.form-style-6{
+	font: 95% 'Times New Roman', Times, serif;
+	max-width: 700px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+.form-style-6 h1{
+	background: #517f1c;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+    margin: -16px -16px 16px -16px;
+    top:0px!important;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% 'Times New Roman', Times, serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #517f1c;
+	padding: 3%;
+	border: 1px solid #517f1c;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #ff8908;
+	border-bottom: 2px solid #ff8908;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #ff8908;
+}

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: white;
+  color: #333;
+  padding: 0px!important;
+}
+
+h1 a {
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+a {
+  color: #517f1c;
+}
+
+a:hover {
+  color: #517f1c;
+}
+
+img {
+  display: block;
+  width: 100%; 
+  border: 6px solid #517f1c;
+}
+
+section {
+  margin: 32 48px;
+}
+
+h1 {
+  font-size: 64px;
+  text-transform: uppercase;
+  margin: 32 48px;
+  border-bottom: 1px solid #BBB;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 5 15 15 15px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 32 0 8 0 px;
+  line-height: 0.5;
+}
+
+.responsive ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 16px; 
+}
+
+.responsive2 ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 16px; 
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 16px;
+
+}
+
+li {
+  background: #FFF;
+  padding: 16px;
+}
+
+@media (max-width: 550px) {
+  h1, h2 {
+    font-size: 32px;
+  }
+}
+
+.right-nav-index{
+  margin-left: 800px!important;
+}
+nav ul li a {
+  font-family: 'Times New Roman', Times, serif;
+  color:#fff;
+  text-decoration:none;
+}
+nav img {
+  width: 75%;
+  padding-left: 150px;
+}
+
+nav menu {
+  background-color: #517f1c;
+  height: 50px;
+}
+
+nav menu ul {
+  list-style: none;
+  line-height: 50px;
+}
+
+nav menu ul li {
+  float: left;
+  width: 10%;
+  text-align: right;
+}
+nav ul li {
+  background: #517f1c;
+}
+nav ul li a:hover {
+  color: #fff;
+}
+nav menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14pt;
+}
+.nama_resep{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+nav menu ul li a img {
+  float: right;
+  height: 50px;
+  width: 205px;
+}
+nav{float:right;margin-right: 15px;}
+
+.logo img {
+  float: left;
+  width: 222px;
+  height: 65px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: none;
+}
+.container{
+  clear:both;
+  overflow:auto;
+  background: #517f1c;
+}
+ul li{
+  display: inline-block; 
+  padding:10px;
+  font-size:20px; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul li:hover{
+  color:orange;
+}
+
+.tulisan_daftar {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20pt;
+    color: white;
+}
+
+.link {
+  color: orange;
+  text-decoration: none;
+  font-size: 12pt;
+}
